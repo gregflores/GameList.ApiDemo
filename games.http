@@ -1,0 +1,82 @@
+GET https://localhost:7013/games
+
+###
+GET https://localhost:7013/games/1
+
+###
+GET https://localhost:7013/games/2
+
+###
+GET https://localhost:7013/games/3
+
+###
+GET http://localhost:5015/games/4
+
+###
+POST https://localhost:7013/games
+Content-Type: application/json
+
+{
+  "Name": "Halo 3",
+  "genreId": 6,
+  "Price": 59.99,
+  "ReleaseDate": "2007-09-25"
+}
+
+###
+PUT https://localhost:7013/games/2
+Content-Type: application/json
+
+{
+  "Name": "Halo 1",
+  "Genre": "FPS",
+  "Price": 10.99,
+  "ReleaseDate": "2000-06-15"
+}
+
+###
+DELETE https://localhost:7013/games/5
+
+###
+POST https://localhost:7013/games/
+Content-Type: application/json
+
+{
+  "Name": "Halo 1",
+  "genreId": 6,
+  "Price": 10.99,
+  "ReleaseDate": "2000-06-15"
+}
+
+###
+POST https://localhost:7013/games/
+Content-Type: application/json
+
+{
+  "Name": "Street Fighter II",
+  "genreId": 1,
+  "Price": 19.99,
+  "ReleaseDate": "1992-07-15"
+}
+
+###
+POST https://localhost:7013/games/
+Content-Type: application/json
+
+{
+  "Name": "Final Fantasy XIV",
+  "genreId": 2,
+  "Price": 59.99,
+  "ReleaseDate": "2010-09-30"
+}
+
+###
+POST https://localhost:7013/games/
+Content-Type: application/json
+
+{
+  "Name": "FIFA 23",
+  "genreId": 3,
+  "Price": 69.99,
+  "ReleaseDate": "2022-09-27"
+}

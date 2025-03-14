@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "S+fRH0NESG0a7cHUu8AM2ekGAt7D0v87V92TDmXwOLw=",
+  "Source": "GameListApi",
+  "BasePath": "_content/GameListApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
